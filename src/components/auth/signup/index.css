@@ -1,0 +1,42 @@
+.card {
+    border: none !important;
+}
+
+.card-body h2 {
+    text-align: left !important;
+    font-size: var(--font-size-h0) !important;
+}
+
+.form-label {
+    font-weight: 500 !important;
+}
+
+.form-control {
+    background: rgb(138 196 196 / 40%) !important;
+    border: none !important;
+    border-radius: var(--border-radius-small) !important;
+}
+
+.form-control:focus {
+    opacity: 1 !important;
+    border-color: var(--color-bright) !important;
+    box-shadow: 0 0 0 0.2rem rgb(138 196 196 / 60%) !important;
+    background: white !important;
+}
+
+.form-text {
+    padding-left: 16px !important;
+}
+
+.btn-primary {
+    padding: 16px 0 !important;
+    background: var(--color-base) !important;
+    border: none !important;
+    border-radius: var(--border-radius-small) !important;
+}
+
+.card-link {
+    color: var(--color-base) !important;
+    background: none !important;
+    font-weight: 500 !important;
+}

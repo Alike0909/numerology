@@ -1,0 +1,13 @@
+.feature-details {
+    overflow: scroll;
+    margin-bottom: 48px;
+}
+
+.feature-details h1 {
+    font-size: var(--font-size-h1);
+    font-weight: 700;
+}
+
+.feature-details h1::first-letter, .feature-details p::first-letter {
+    text-transform: capitalize;
+}

@@ -1,0 +1,6 @@
+.indicator {
+    width: 4px;
+    height: 120px;
+    border: 1px solid;
+    border-radius: var(--border-radius-small);
+}
